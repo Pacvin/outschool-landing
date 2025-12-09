@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-card {
+    width: 100%;
+    min-height: 85vh;
+    background: linear-gradient(135deg, #5D13E7 0%, #A52DCB 100%);
+    color: white;
+    border-radius: 0 0 200px 0;
+    padding: 30px 80px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.logo-img {
+    height: 28px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.user-controls {
+    display: flex;
+    gap: 20px;
+}
+
+.icon-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.icon-link img {
+    height: 18px;
+}
+
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    width: 100%;
+}
+
+
+.hero-text {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    opacity: 0.9;
+    max-width: 450px;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 15px 40px;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-pink {
+    background-color: #FF2E93;
+    color: white;
+    box-shadow: 0 5px 20px rgba(255, 46, 147, 0.4);
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    color: white;
+}
+
+
+.hero-image {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    z-index: 10;
+}
+
+.hero-image img {
+    max-height: 50vh;
+    width: auto;
+    max-width: 100%;
+}
